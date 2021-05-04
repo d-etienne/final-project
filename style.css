@@ -1,0 +1,139 @@
+html, body{
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#contentBox{
+    margin: 2vh;
+}
+#nav {
+    display: flex;
+    justify-content: space-between;
+    
+    font-weight: 300;
+}
+
+#logo {
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+}
+
+a:hover, .angle:hover{
+    color: lightslategrey;
+}
+
+.card {
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+}
+
+.screen {
+    background-color:#2B2B2A;
+    height: 90vh;
+    width: 70vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFBFB;
+    position: relative;
+}
+
+.screen > div {
+    width: 50vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.angle{
+    font-size: 10vh;
+    padding: 2vh;
+}
+
+#image {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: #F8D9D9;
+    align-self: center;
+    object-fit: cover;
+}
+
+
+#name{
+    display: inline;
+    font-weight: 500;
+    color: #FFFBFB;
+}
+
+#sText {
+    font-weight: 300;
+    font-size: 0.85rem;
+}
+
+#content {
+    width: 80vh;
+    margin-left: 15vh;
+}
+#title div + div{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+#cText {
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+}
+
+#cornerImage {
+    position: absolute;
+    z-index: -99;
+    right:0;
+    bottom:0;
+    height: 50vh;
+    width: 55vh;
+}
+
+#button {
+    height: 3vh;
+    width: 15vh;
+    background-color:#2B2B2A;
+    color: #FFFBFB;
+    text-align: center;
+    padding: 1vh;
+}
+
+/* #button a{
+    color: #FFFBFB;
+    padding: 0;
+    margin: 0;
+} */
+
+#button:hover{
+    background-color: lightslategrey;
+}
+
+#sbutton {
+    background-color:#FFFBFB;
+    height: 3vh;
+    width: 15vh;
+    text-align: center;
+    padding: 1vh;
+}
+
+#sbutton:hover{
+    background-color: lightslategrey;
+    color:#FFFBFB;
+    
+}
